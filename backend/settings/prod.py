@@ -3,7 +3,7 @@ from os import getenv
 import environ
 
 DEBUG = False
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'crypto1324.herokuapp.com']
 
 env = environ.Env()
 environ.Env.read_env(BASE_DIR / '.env')
