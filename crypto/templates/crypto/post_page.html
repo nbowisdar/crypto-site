@@ -1,0 +1,18 @@
+{% extends 'crypto/base.html' %}
+
+{% block content %}
+<h1>{{post}}</h1> <hr>
+<div class="desc-cont">
+<p class="desc">{{post.full_info}}</p>
+<button type="button" class="btn btn-primary">Регистрация</button>
+<p id="ref-link">{{post.url}}</p>
+</div>
+
+<script>
+    const url = document.querySelector('#ref-link').innerHTML
+    console.log(url)
+    let myButton = document.querySelector('.btn-primary')
+    myButton.addEventListener('click',  ()=> window.open(url, '_blank'))
+</script>
+{% endblock %}
+
