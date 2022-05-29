@@ -1,0 +1,85 @@
+body {
+    background-image: url('../image/crypto-winter.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+main{
+    margin: auto;
+    width: 60%;
+
+    padding: 10px;
+    text-align: center;
+    }
+
+.flex-container{
+    display: flex;
+    width: 250;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item{
+    height: 250px;
+    width: 400px;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(90, 194, 177);
+    opacity: 75%;
+    position: relative;
+}
+
+.down-info-post{
+    position: absolute;
+    bottom: 0px;
+}
+
+.post-info{
+  overflow-wrap: break-word;
+}
+.desc-cont{
+  padding-top: 20px;
+  margin: auto;
+  width: 700px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.desk{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+#ref-link{
+  position: absolute;
+  bottom: 0px;
+  opacity: 0%;
+}
+.btn-primary{
+  margin-top: 20px;
+  padding: 20px;
+  font-size: x-large;
+}
+
+.text-center{
+  margin: auto;
+  padding-top: 30px;
+}
+
+.flex-container a:link {
+  color: black;
+}
+  /* visited link */
+.flex-container a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  .flex-container a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  .flex-container a:active {
+    color: blue;
+  }
