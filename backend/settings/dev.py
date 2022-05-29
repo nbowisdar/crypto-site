@@ -1,7 +1,8 @@
 from .base import *
-SECRET_KEY = os.getenv('SECRET_KEY')
+from decouple import config
+SECRET_KEY = config('SECRET_KEY')
 DEBUG = True
-
+print(SECRET_KEY)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
