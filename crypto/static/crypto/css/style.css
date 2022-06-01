@@ -46,9 +46,14 @@ main{
   font-size: larger;
 }
 
-.desk{
+.desc{
   font-family: 'Times New Roman', Times, serif;
   font-size: larger;
+  background-color: rgb(84, 141, 226, 0.5);
+  padding: 15px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  word-wrap: break-word;
 }
 #ref-link{
   position: absolute;
