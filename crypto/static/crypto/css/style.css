@@ -25,7 +25,7 @@ main{
     margin: 30px;
     padding: 5px;
     border-radius: 10px;
-    background-color: rgb(90, 194, 177);
+    background-color: rgb(84, 141, 226, 0.5);
     opacity: 75%;
     position: relative;
 }
@@ -98,4 +98,11 @@ main{
       width: auto;
       font-size: large;
     }
+    .flex-item{
+      height: 300px;
+      width: 300px;
+      margin: 15px;
+      padding-left: 5px;
+
+  }
   }
