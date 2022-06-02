@@ -108,4 +108,4 @@ if config('PROD'):
     import dj_database_url
     DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
     DEBUG = True
-    ALLOWED_HOSTS = ['127.0.0.1', 'crypto1324.herokuapp.com',]
+    ALLOWED_HOSTS = ['127.0.0.1', 'crypto-syte.herokuapp.com',]

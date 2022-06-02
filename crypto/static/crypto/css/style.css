@@ -88,3 +88,13 @@ main{
   .flex-container a:active {
     color: blue;
   }
+
+  @media (max-width:600px){
+    .desc-cont{
+
+      margin: auto;
+      width: auto;
+
+      font-size: large;
+    }
+  }
